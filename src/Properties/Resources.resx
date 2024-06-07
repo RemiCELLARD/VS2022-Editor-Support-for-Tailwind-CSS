@@ -117,19 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Category_Build_Title" xml:space="preserve">
+  <data name="Option_Category_Build_Title" xml:space="preserve">
     <value>Build</value>
   </data>
-  <data name="Category_Class_Sort_Title" xml:space="preserve">
+  <data name="Option_Category_Class_Sort_Title" xml:space="preserve">
     <value>Class sort</value>
   </data>
-  <data name="Category_Custom_Build_Title" xml:space="preserve">
+  <data name="Option_Category_Custom_Build_Title" xml:space="preserve">
     <value>Custom build</value>
   </data>
-  <data name="Category_General_Title" xml:space="preserve">
+  <data name="Option_Category_General_Title" xml:space="preserve">
     <value>General</value>
   </data>
-  <data name="Category_Validation_Title" xml:space="preserve">
+  <data name="Option_Category_Validation_Title" xml:space="preserve">
     <value>Validation</value>
+  </data>
+  <data name="Option_Name_Automatically_Apply_Lib_Updates" xml:space="preserve">
+    <value>Automatically apply library updates</value>
+  </data>
+  <data name="Option_Name_Build_Script" xml:space="preserve">
+    <value>Build script</value>
+  </data>
+  <data name="Option_Name_Build_Type" xml:space="preserve">
+    <value>Build type</value>
+  </data>
+  <data name="Option_Name_Class_Sort_Type" xml:space="preserve">
+    <value>Class sort type</value>
+  </data>
+  <data name="Option_Name_CSS_Conflict" xml:space="preserve">
+    <value>CSS conflict</value>
+  </data>
+  <data name="Option_Name_Default_Output_File_Name" xml:space="preserve">
+    <value>Default output file name</value>
+  </data>
+  <data name="Option_Name_Enable_Extension" xml:space="preserve">
+    <value>Enable extension</value>
+  </data>
+  <data name="Option_Name_Enable_Linter" xml:space="preserve">
+    <value>Enable linter</value>
+  </data>
+  <data name="Option_Name_Invalid_Config_Path" xml:space="preserve">
+    <value>Invalid config path</value>
+  </data>
+  <data name="Option_Name_Invalid_Screen" xml:space="preserve">
+    <value>Invalid screen</value>
+  </data>
+  <data name="Option_Name_Invalid_Tailwind_Directive" xml:space="preserve">
+    <value>Invalid Tailwind directive</value>
+  </data>
+  <data name="Option_Name_Minify_Builds" xml:space="preserve">
+    <value>Minify builds</value>
+  </data>
+  <data name="Option_Name_Override_Build" xml:space="preserve">
+    <value>Override build</value>
+  </data>
+  <data name="Option_Name_Tailwind_CLI_Path" xml:space="preserve">
+    <value>Tailwind CLI path</value>
+  </data>
+  <data name="Option_Name_Tailwind_CSS_Completions_Before_All" xml:space="preserve">
+    <value>Tailwind CSS completions before all</value>
   </data>
 </root>

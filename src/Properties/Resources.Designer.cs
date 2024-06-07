@@ -63,45 +63,180 @@ namespace TailwindCSSIntellisense.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Build.
         /// </summary>
-        internal static string Category_Build_Title {
+        internal static string Option_Category_Build_Title {
             get {
-                return ResourceManager.GetString("Category_Build_Title", resourceCulture);
+                return ResourceManager.GetString("Option_Category_Build_Title", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Class sort.
         /// </summary>
-        internal static string Category_Class_Sort_Title {
+        internal static string Option_Category_Class_Sort_Title {
             get {
-                return ResourceManager.GetString("Category_Class_Sort_Title", resourceCulture);
+                return ResourceManager.GetString("Option_Category_Class_Sort_Title", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Custom build.
         /// </summary>
-        internal static string Category_Custom_Build_Title {
+        internal static string Option_Category_Custom_Build_Title {
             get {
-                return ResourceManager.GetString("Category_Custom_Build_Title", resourceCulture);
+                return ResourceManager.GetString("Option_Category_Custom_Build_Title", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to General.
         /// </summary>
-        internal static string Category_General_Title {
+        internal static string Option_Category_General_Title {
             get {
-                return ResourceManager.GetString("Category_General_Title", resourceCulture);
+                return ResourceManager.GetString("Option_Category_General_Title", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Validation.
         /// </summary>
-        internal static string Category_Validation_Title {
+        internal static string Option_Category_Validation_Title {
             get {
-                return ResourceManager.GetString("Category_Validation_Title", resourceCulture);
+                return ResourceManager.GetString("Option_Category_Validation_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automatically apply library updates.
+        /// </summary>
+        internal static string Option_Name_Automatically_Apply_Lib_Updates {
+            get {
+                return ResourceManager.GetString("Option_Name_Automatically_Apply_Lib_Updates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Build script.
+        /// </summary>
+        internal static string Option_Name_Build_Script {
+            get {
+                return ResourceManager.GetString("Option_Name_Build_Script", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Build type.
+        /// </summary>
+        internal static string Option_Name_Build_Type {
+            get {
+                return ResourceManager.GetString("Option_Name_Build_Type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class sort type.
+        /// </summary>
+        internal static string Option_Name_Class_Sort_Type {
+            get {
+                return ResourceManager.GetString("Option_Name_Class_Sort_Type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CSS conflict.
+        /// </summary>
+        internal static string Option_Name_CSS_Conflict {
+            get {
+                return ResourceManager.GetString("Option_Name_CSS_Conflict", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default output file name.
+        /// </summary>
+        internal static string Option_Name_Default_Output_File_Name {
+            get {
+                return ResourceManager.GetString("Option_Name_Default_Output_File_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable extension.
+        /// </summary>
+        internal static string Option_Name_Enable_Extension {
+            get {
+                return ResourceManager.GetString("Option_Name_Enable_Extension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable linter.
+        /// </summary>
+        internal static string Option_Name_Enable_Linter {
+            get {
+                return ResourceManager.GetString("Option_Name_Enable_Linter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid config path.
+        /// </summary>
+        internal static string Option_Name_Invalid_Config_Path {
+            get {
+                return ResourceManager.GetString("Option_Name_Invalid_Config_Path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid screen.
+        /// </summary>
+        internal static string Option_Name_Invalid_Screen {
+            get {
+                return ResourceManager.GetString("Option_Name_Invalid_Screen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Tailwind directive.
+        /// </summary>
+        internal static string Option_Name_Invalid_Tailwind_Directive {
+            get {
+                return ResourceManager.GetString("Option_Name_Invalid_Tailwind_Directive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minify builds.
+        /// </summary>
+        internal static string Option_Name_Minify_Builds {
+            get {
+                return ResourceManager.GetString("Option_Name_Minify_Builds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Override build.
+        /// </summary>
+        internal static string Option_Name_Override_Build {
+            get {
+                return ResourceManager.GetString("Option_Name_Override_Build", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tailwind CLI path.
+        /// </summary>
+        internal static string Option_Name_Tailwind_CLI_Path {
+            get {
+                return ResourceManager.GetString("Option_Name_Tailwind_CLI_Path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tailwind CSS completions before all.
+        /// </summary>
+        internal static string Option_Name_Tailwind_CSS_Completions_Before_All {
+            get {
+                return ResourceManager.GetString("Option_Name_Tailwind_CSS_Completions_Before_All", resourceCulture);
             }
         }
     }

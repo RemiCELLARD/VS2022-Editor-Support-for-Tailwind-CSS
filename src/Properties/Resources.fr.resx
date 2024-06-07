@@ -117,19 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Category_Build_Title" xml:space="preserve">
+  <data name="Option_Category_Build_Title" xml:space="preserve">
     <value>Compilation</value>
   </data>
-  <data name="Category_Class_Sort_Title" xml:space="preserve">
+  <data name="Option_Category_Class_Sort_Title" xml:space="preserve">
     <value>Tri des classes CSS</value>
   </data>
-  <data name="Category_Custom_Build_Title" xml:space="preserve">
+  <data name="Option_Category_Custom_Build_Title" xml:space="preserve">
     <value>Compilation personnalisée</value>
   </data>
-  <data name="Category_General_Title" xml:space="preserve">
+  <data name="Option_Category_General_Title" xml:space="preserve">
     <value>Général</value>
   </data>
-  <data name="Category_Validation_Title" xml:space="preserve">
+  <data name="Option_Category_Validation_Title" xml:space="preserve">
     <value>Validation</value>
+  </data>
+  <data name="Option_Name_Automatically_Apply_Lib_Updates" xml:space="preserve">
+    <value>Mettre à jour la librairie automatiquement</value>
+  </data>
+  <data name="Option_Name_Build_Script" xml:space="preserve">
+    <value>Script de build</value>
+  </data>
+  <data name="Option_Name_Build_Type" xml:space="preserve">
+    <value>Déclencheur pour le lancement du build</value>
+  </data>
+  <data name="Option_Name_Class_Sort_Type" xml:space="preserve">
+    <value>Déclencheur pour le rangement des classes CSS</value>
+  </data>
+  <data name="Option_Name_CSS_Conflict" xml:space="preserve">
+    <value>Conflit CSS</value>
+  </data>
+  <data name="Option_Name_Default_Output_File_Name" xml:space="preserve">
+    <value>Nom du fichier de sortie par défaut</value>
+  </data>
+  <data name="Option_Name_Enable_Extension" xml:space="preserve">
+    <value>Activer l'extension</value>
+  </data>
+  <data name="Option_Name_Enable_Linter" xml:space="preserve">
+    <value>Activer le linter</value>
+  </data>
+  <data name="Option_Name_Invalid_Config_Path" xml:space="preserve">
+    <value>Configuration de l'assistant de thème invalide/inconnu</value>
+  </data>
+  <data name="Option_Name_Invalid_Screen" xml:space="preserve">
+    <value>Écran inconnu</value>
+  </data>
+  <data name="Option_Name_Invalid_Tailwind_Directive" xml:space="preserve">
+    <value>Directive @tailwind inconnue</value>
+  </data>
+  <data name="Option_Name_Minify_Builds" xml:space="preserve">
+    <value>Build minifié</value>
+  </data>
+  <data name="Option_Name_Override_Build" xml:space="preserve">
+    <value>Utiliser un script de build CSS personnalisée</value>
+  </data>
+  <data name="Option_Name_Tailwind_CLI_Path" xml:space="preserve">
+    <value>Répertoire de Tailwind CLI</value>
+  </data>
+  <data name="Option_Name_Tailwind_CSS_Completions_Before_All" xml:space="preserve">
+    <value>Mettre les classes Tailwind CSS en avant</value>
   </data>
 </root>
