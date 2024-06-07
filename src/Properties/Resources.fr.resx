@@ -132,6 +132,51 @@
   <data name="Option_Category_Validation_Title" xml:space="preserve">
     <value>Validation</value>
   </data>
+  <data name="Option_Description_Automatically_Apply_Lib_Updates" xml:space="preserve">
+    <value>True si la librairie Tailwind doit être mis à jour au chargement du projet ; false sinon</value>
+  </data>
+  <data name="Option_Description_Build_Script" xml:space="preserve">
+    <value>Le nom du script à exécuter lors de la compilation (défini dans package.json) ; laisser vide pour utiliser la compilation CSS par défaut de Tailwind.</value>
+  </data>
+  <data name="Option_Description_Build_Type" xml:space="preserve">
+    <value>Les fichiers peuvent être construits au déclenchement d'un des évènements : Default (Tailwind JIT), OnSave (lors de l'enregistrement du fichier), OnBuild (lors de la construction du projet), et None (pas de construction).</value>
+  </data>
+  <data name="Option_Description_Class_Sort_Type" xml:space="preserve">
+    <value>Les classes peuvent être triées manuellement (avec les options du menu "Outils"), lors de l'enregistrement du fichier (ne trie que les fichiers ouverts), lors de la construction (solution complète), ou jamais.</value>
+  </data>
+  <data name="Option_Description_CSS_Conflict" xml:space="preserve">
+    <value>Noms de classe sur le même élément HTML / Classe CSS qui appliquent la ou les mêmes propriétés CSS.</value>
+  </data>
+  <data name="Option_Description_Default_Output_File_Name" xml:space="preserve">
+    <value>Définit le nom par défaut du fichier CSS construit par Tailwind ; utilisez {0} si vous souhaitez faire référence au nom du fichier de contenu.</value>
+  </data>
+  <data name="Option_Description_Enable_Extension" xml:space="preserve">
+    <value>Active ou désactive les fonctions de l'extension</value>
+  </data>
+  <data name="Option_Description_Enable_Linter" xml:space="preserve">
+    <value>Activer ou de désactiver le linter.</value>
+  </data>
+  <data name="Option_Description_Invalid_Config_Path" xml:space="preserve">
+    <value>Chemin inconnu / invalide utilisé avec l'aide de thème.</value>
+  </data>
+  <data name="Option_Description_Invalid_Screen" xml:space="preserve">
+    <value>Nom d'écran inconnu utilisé avec la directive @screen.</value>
+  </data>
+  <data name="Option_Description_Invalid_Tailwind_Directive" xml:space="preserve">
+    <value>Valeur inconnue utilisée avec la directive @tailwind.</value>
+  </data>
+  <data name="Option_Description_Minify_Builds" xml:space="preserve">
+    <value>Détermine si le processus de construction de Tailwind minifie ou non le fichier de sortie par défaut.</value>
+  </data>
+  <data name="Option_Description_Override_Build" xml:space="preserve">
+    <value>Seul le script défini dans "Build script" est exécuté lorsqu'il est défini à true ; les deux sont exécutés simultanément lorsqu'il est défini à false ; seul le build par défaut de Tailwind sera exécuté si le script package.json n'est pas trouvé.</value>
+  </data>
+  <data name="Option_Description_Tailwind_CLI_Path" xml:space="preserve">
+    <value>Le chemin absolu vers l'exécutable Tailwind CLI pour la construction : s'il est vide, la commande npx tailwindcss build par défaut sera exécutée ; sinon, la commande Tailwind CLI spécifiée sera appelée.</value>
+  </data>
+  <data name="Option_Description_Tailwind_CSS_Completions_Before_All" xml:space="preserve">
+    <value>True si les compléments CSS de Tailwind sont placés avant tous les autres ; False s'ils sont placés après.</value>
+  </data>
   <data name="Option_Name_Automatically_Apply_Lib_Updates" xml:space="preserve">
     <value>Mettre à jour la librairie automatiquement</value>
   </data>

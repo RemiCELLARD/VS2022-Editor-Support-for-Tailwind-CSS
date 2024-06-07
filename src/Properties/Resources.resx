@@ -132,6 +132,51 @@
   <data name="Option_Category_Validation_Title" xml:space="preserve">
     <value>Validation</value>
   </data>
+  <data name="Option_Description_Automatically_Apply_Lib_Updates" xml:space="preserve">
+    <value>True if the Tailwind CSS should update on project load; false if not</value>
+  </data>
+  <data name="Option_Description_Build_Script" xml:space="preserve">
+    <value>The name of the script to execute on build (defined in package.json); leave blank to use the default Tailwind CSS build</value>
+  </data>
+  <data name="Option_Description_Build_Type" xml:space="preserve">
+    <value>Files can be built in four ways: Default (Tailwind JIT), OnSave (on file save), OnBuild (on project build), and None (no building)</value>
+  </data>
+  <data name="Option_Description_Class_Sort_Type" xml:space="preserve">
+    <value>Classes can be sorted manually (with 'Tools' options), on file save (only sorts open file), on build (entire solution), or never.</value>
+  </data>
+  <data name="Option_Description_CSS_Conflict" xml:space="preserve">
+    <value>Class names on the same HTML element / CSS class which apply the same CSS property or properties.</value>
+  </data>
+  <data name="Option_Description_Default_Output_File_Name" xml:space="preserve">
+    <value>Sets the default name of the built Tailwind CSS file; use {0} if you want to reference the content file name</value>
+  </data>
+  <data name="Option_Description_Enable_Extension" xml:space="preserve">
+    <value>Enables or disables the extension features</value>
+  </data>
+  <data name="Option_Description_Enable_Linter" xml:space="preserve">
+    <value>Enables or disables the entire linter.</value>
+  </data>
+  <data name="Option_Description_Invalid_Config_Path" xml:space="preserve">
+    <value>Unknown or invalid path used with the theme helper.</value>
+  </data>
+  <data name="Option_Description_Invalid_Screen" xml:space="preserve">
+    <value>Unknown screen name used with the @screen directive.</value>
+  </data>
+  <data name="Option_Description_Invalid_Tailwind_Directive" xml:space="preserve">
+    <value>Unknown value used with the @tailwind directive.</value>
+  </data>
+  <data name="Option_Description_Minify_Builds" xml:space="preserve">
+    <value>Determines whether or not the Tailwind build process minifies by default</value>
+  </data>
+  <data name="Option_Description_Override_Build" xml:space="preserve">
+    <value>Only runs the script defined in "Build script" when set to true; both run simultaneously when set to false; only the default Tailwind build will run if the package.json script is not found</value>
+  </data>
+  <data name="Option_Description_Tailwind_CLI_Path" xml:space="preserve">
+    <value>The absolute path to the Tailwind CLI executable for building: if empty, the default npx tailwindcss build command will run; if not, the specified Tailwind CLI will be called</value>
+  </data>
+  <data name="Option_Description_Tailwind_CSS_Completions_Before_All" xml:space="preserve">
+    <value>True if Tailwind CSS completions come before all others; false if after</value>
+  </data>
   <data name="Option_Name_Automatically_Apply_Lib_Updates" xml:space="preserve">
     <value>Automatically apply library updates</value>
   </data>

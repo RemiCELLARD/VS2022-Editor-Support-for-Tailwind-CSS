@@ -106,6 +106,141 @@ namespace TailwindCSSIntellisense.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to True if the Tailwind CSS should update on project load; false if not.
+        /// </summary>
+        internal static string Option_Description_Automatically_Apply_Lib_Updates {
+            get {
+                return ResourceManager.GetString("Option_Description_Automatically_Apply_Lib_Updates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The name of the script to execute on build (defined in package.json); leave blank to use the default Tailwind CSS build.
+        /// </summary>
+        internal static string Option_Description_Build_Script {
+            get {
+                return ResourceManager.GetString("Option_Description_Build_Script", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Files can be built in four ways: Default (Tailwind JIT), OnSave (on file save), OnBuild (on project build), and None (no building).
+        /// </summary>
+        internal static string Option_Description_Build_Type {
+            get {
+                return ResourceManager.GetString("Option_Description_Build_Type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Classes can be sorted manually (with &apos;Tools&apos; options), on file save (only sorts open file), on build (entire solution), or never..
+        /// </summary>
+        internal static string Option_Description_Class_Sort_Type {
+            get {
+                return ResourceManager.GetString("Option_Description_Class_Sort_Type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class names on the same HTML element / CSS class which apply the same CSS property or properties..
+        /// </summary>
+        internal static string Option_Description_CSS_Conflict {
+            get {
+                return ResourceManager.GetString("Option_Description_CSS_Conflict", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sets the default name of the built Tailwind CSS file; use {0} if you want to reference the content file name.
+        /// </summary>
+        internal static string Option_Description_Default_Output_File_Name {
+            get {
+                return ResourceManager.GetString("Option_Description_Default_Output_File_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enables or disables the extension features.
+        /// </summary>
+        internal static string Option_Description_Enable_Extension {
+            get {
+                return ResourceManager.GetString("Option_Description_Enable_Extension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enables or disables the entire linter..
+        /// </summary>
+        internal static string Option_Description_Enable_Linter {
+            get {
+                return ResourceManager.GetString("Option_Description_Enable_Linter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown or invalid path used with the theme helper..
+        /// </summary>
+        internal static string Option_Description_Invalid_Config_Path {
+            get {
+                return ResourceManager.GetString("Option_Description_Invalid_Config_Path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown screen name used with the @screen directive..
+        /// </summary>
+        internal static string Option_Description_Invalid_Screen {
+            get {
+                return ResourceManager.GetString("Option_Description_Invalid_Screen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown value used with the @tailwind directive..
+        /// </summary>
+        internal static string Option_Description_Invalid_Tailwind_Directive {
+            get {
+                return ResourceManager.GetString("Option_Description_Invalid_Tailwind_Directive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Determines whether or not the Tailwind build process minifies by default.
+        /// </summary>
+        internal static string Option_Description_Minify_Builds {
+            get {
+                return ResourceManager.GetString("Option_Description_Minify_Builds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only runs the script defined in &quot;Build script&quot; when set to true; both run simultaneously when set to false; only the default Tailwind build will run if the package.json script is not found.
+        /// </summary>
+        internal static string Option_Description_Override_Build {
+            get {
+                return ResourceManager.GetString("Option_Description_Override_Build", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The absolute path to the Tailwind CLI executable for building: if empty, the default npx tailwindcss build command will run; if not, the specified Tailwind CLI will be called.
+        /// </summary>
+        internal static string Option_Description_Tailwind_CLI_Path {
+            get {
+                return ResourceManager.GetString("Option_Description_Tailwind_CLI_Path", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to True if Tailwind CSS completions come before all others; false if after.
+        /// </summary>
+        internal static string Option_Description_Tailwind_CSS_Completions_Before_All {
+            get {
+                return ResourceManager.GetString("Option_Description_Tailwind_CSS_Completions_Before_All", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Automatically apply library updates.
         /// </summary>
         internal static string Option_Name_Automatically_Apply_Lib_Updates {
